@@ -316,3 +316,11 @@ strong { color: var(--text); font-weight: 600; }
 .services__cta { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; margin-top: 2rem; }
 .services__note { color: var(--muted); font-size: 0.92rem; }
 @media (max-width: 960px) { .cards--3 { grid-template-columns: 1fr; } }
+.rate {
+  display: inline-flex; align-items: baseline; gap: 0.35rem;
+  padding: 0.6rem 1rem; border-radius: 10px;
+  border: 1px solid color-mix(in srgb, #22c55e 40%, var(--border));
+  background: color-mix(in srgb, #22c55e 10%, var(--surface));
+}
+.rate__amount { font-weight: 800; font-size: 1.1rem; letter-spacing: -0.01em; }
+.rate__unit { color: var(--muted); font-size: 0.9rem; }
